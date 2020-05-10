@@ -1,15 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
+import { IntlProvider } from 'react-intl';
 import App from './App';
+import es from 'translations/es.json';
+import en from 'translations/en.json';
 import * as serviceWorker from './serviceWorker';
+import 'style/index.css';
+
+const messages = {
+  es,
+  en,
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <IntlProvider
+      locale="es"
+      messages={messages.es}
+    >
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </IntlProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
