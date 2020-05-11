@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'components/MetaTags';
-// import CustomSlider from 'components/CustomSlider';
+import CustomSlider from 'components/CustomSlider';
+import 'style/home.css';
 
 const Home = ({ metaTags }) => {
   return (
-    <div>
+    <div id="home">
       <MetaTags metaTags={metaTags} />
-      <h1>Home</h1>
-      {/* <CustomSlider /> */}
+      <CustomSlider />
     </div>
   );
 };

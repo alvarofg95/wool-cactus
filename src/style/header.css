@@ -21,3 +21,9 @@
 #header > div > a.active {
   text-decoration: underline;
 }
+
+#header > span {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 30px;
+}

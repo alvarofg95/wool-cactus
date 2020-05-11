@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { ROUTES } from './constants';
-import Home from 'pages/Home';
-import Store from 'pages/Store';
+const Home = lazy(() => import('pages/Home'));
+const Store = lazy(() => import('pages/Store'));
 
 export default [
   {

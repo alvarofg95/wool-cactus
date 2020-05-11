@@ -10,7 +10,7 @@ export default () => {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider className="slider" {...settings} arrows={true}>
       <div>
         <h3>1</h3>
       </div>
