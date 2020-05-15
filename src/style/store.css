@@ -1,0 +1,34 @@
+#store > .containerItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#store > .containerItems > .storeItem,
+#store > .containerItems > .storeItem > img,
+#store > .containerItems > .storeItem > div {
+  width: 15rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+#store > .containerItems > .storeItem {
+  position: relative;
+}
+
+#store > .containerItems > .storeItem > div {
+  position: absolute;
+  bottom: 2rem;
+  right: 0px;
+  font-size: 2rem;
+  width: 75%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+#store > .containerItems > .storeItem > img:hover {
+  opacity: 0.5;
+}
+
+

@@ -4,3 +4,24 @@
   width: 95%;
   margin: 0 auto;
 }
+
+#home > .title {
+  text-align: center;
+}
+
+#home > .description {
+  width: 80%;
+  margin: 3rem auto;
+  font-size: 25px;
+  text-align: justify;
+}
+
+#home > .visitStore {
+  text-align: center;
+  font-size: 25px;
+}
+
+#home > .visitStore > a {
+  text-decoration: none;
+  color: green;
+}

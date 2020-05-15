@@ -1,4 +1,7 @@
 {
   "header.home": "Home",
-  "header.store": "Store"
+  "header.store": "Store",
+  "home.title": "Wool Cactus",
+  "home.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "home.visitStore": "Visita nuestros productos accediendo a la <a>tienda</a>"
 }
